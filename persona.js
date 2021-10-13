@@ -1,4 +1,4 @@
-export default class Persona {
+export default class Person {
     constructor(code, name){
         this.name = name;
         this.code = code;
@@ -6,10 +6,10 @@ export default class Persona {
     }
 
     getName(){
-        return this.nombre;
+        return this.name;
     }
 
     getCode(){
-        return this.codigo;
+        return this.code;
     }
 }
